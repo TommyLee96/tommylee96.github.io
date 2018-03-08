@@ -124,12 +124,22 @@
 
 
 
-  <title>Archiv | Tommy-Lee</title>
+  <title>Archive | Tommy-Lee</title>
   
 
 
 
 
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?004f76ae93f713b77b4bd98196909541";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 
 
 
@@ -184,7 +194,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
             
-            Startseite
+            Home
           </a>
         </li>
       
@@ -194,7 +204,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
             
-            Archiv
+            Archives
           </a>
         </li>
       
@@ -204,7 +214,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
             
-            Kategorien
+            Categories
           </a>
         </li>
       
@@ -224,7 +234,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
             
-            Über
+            About
           </a>
         </li>
       
@@ -234,7 +244,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
             
-            Suche
+            Search
           </a>
         </li>
       
@@ -290,7 +300,7 @@
         
           
         
-        Öhm..! Insgesamt 3 Artikel. Bleib dran.
+        Um..! 3 posts in total. Keep on posting.
       </span>
 
       
@@ -467,7 +477,7 @@
                 <a href="/归档">
               
                   <span class="site-state-item-count">3</span>
-                  <span class="site-state-item-name">Artikel</span>
+                  <span class="site-state-item-name">posts</span>
                 </a>
               </div>
             
@@ -533,7 +543,7 @@
 </div>
 
 
-  <div class="powered-by">Erstellt mit  <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
 
 
 
@@ -687,6 +697,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'K5g5JzCHxuWnXHxxJNhfuaCE-gzGzoHsz',
+        appKey: 'l56yuCu0FzBQV5p5rt7Vi0xX',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
