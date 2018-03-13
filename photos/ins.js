@@ -117,7 +117,7 @@
                     var liTmpl = "";
                     for (var i = 0, len = data.link.length; i < len; i++) {
                         var minSrc = data.link[i] +'?imageView2/4/w/1024/h/1024/interlace/1/q/100';
-                        var src = data.link[i];
+                        var src = data.link[i]+'?imageView2/4/w/1024/h/1024/interlace/1/q/100';
                         var type = data.type[i];
                         var target = src + (type === 'video' ? '.mp4' : '.jpg');
                         src += '';
