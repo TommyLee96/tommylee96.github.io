@@ -159,62 +159,48 @@
       
         <p><table><br>  <tr><br>    <td>小</td><br>    <td>李</td><br>  </tr><br>  <tr><br>    <td>杂</td><br>    <td>记</td><br>  </tr><br></table></p>
 <h1 id="Markdown学习"><a href="#Markdown学习" class="headerlink" title="Markdown学习"></a>Markdown学习</h1><p>I like <a href="https://www.google.com/" target="_blank" rel="noopener">Google</a></p>
-<h1 id="一-段落与换行"><a href="#一-段落与换行" class="headerlink" title="一.段落与换行"></a>一.段落与换行</h1><pre><code>1. 段落的前后必须是空行：
-
-空行指的是行内什么都没有，或者只有空白符（空格或制表符）
-
-相邻两行文本，如果中间没有空行 会显示在一行中（换行符被转换为空格）
-
-2. 如果需要在段落内加入换行（&lt;br&gt;）：
-
-可以在前一行的末尾加入至少两个空格
-然后换行写其它的文字
-
-3. Markdown 中的多数区块都需要在两个空行之间。
-</code></pre><h1 id="二-标题"><a href="#二-标题" class="headerlink" title="二.标题"></a>二.标题</h1><pre><code>1. Setext 形式
-----
-= 和 - 的数量是没有限制的。通常的做法是使其和标题文本的长度相同，这样看起来比较舒服。或者可以像我一样，用四个 - 或 =。
-Setext 形式只支持 h1 和 h2 两种标题。
-H1
-===
-H2
----
-
-2. atx 形式
----
-####H4####
-#####H5#####
-</code></pre><h1 id="三-引用"><a href="#三-引用" class="headerlink" title="三.引用"></a>三.引用</h1><pre><code>1.引用内容
----
-在段落或其他内容前使用 &gt; 号，就可以将这段内容标记为 &apos;引用&apos; 的内容（&lt;blockquote&gt;）：
-&gt;引用
-&gt;&gt;嵌套引用1
-&gt;&gt;嵌套引用2
-</code></pre><h1 id="四-列表"><a href="#四-列表" class="headerlink" title="四.列表"></a>四.列表</h1><pre><code>1.无序列表
-----
-*列表1
-*可以使用*作为标记
-*也可以使用+
-*或者 -
-2.有序列表
----
-+2-1有序列表以数字和.开始
-+2-2.
-</code></pre><h1 id="五-代码"><a href="#五-代码" class="headerlink" title="五.代码"></a>五.代码</h1><pre><code>1.代码块
-可以用缩进来插入代码块&lt;br&gt;
-
-&lt;html&gt; // Tab开头
+<h1 id="一-段落与换行"><a href="#一-段落与换行" class="headerlink" title="一.段落与换行"></a>一.段落与换行</h1><ol>
+<li>段落的前后必须是空行：</li>
+</ol>
+<p>空行指的是行内什么都没有，或者只有空白符（空格或制表符）</p>
+<p>相邻两行文本，如果中间没有空行 会显示在一行中（换行符被转换为空格）</p>
+<ol>
+<li>如果需要在段落内加入换行（<br>）：</li>
+</ol>
+<p>可以在前一行的末尾加入至少两个空格<br>然后换行写其它的文字</p>
+<ol>
+<li>Markdown 中的多数区块都需要在两个空行之间。</li>
+</ol>
+<h1 id="二-标题"><a href="#二-标题" class="headerlink" title="二.标题"></a>二.标题</h1><ol>
+<li>Setext 形式</li>
+</ol>
+<hr>
+<p>= 和 - 的数量是没有限制的。通常的做法是使其和标题文本的长度相同，这样看起来比较舒服。或者可以像我一样，用四个 - 或 =。<br>Setext 形式只支持 h1 和 h2 两种标题。</p>
+<h1 id="H1"><a href="#H1" class="headerlink" title="H1"></a>H1</h1><h2 id="H2"><a href="#H2" class="headerlink" title="H2"></a>H2</h2><ol>
+<li>atx 形式</li>
+</ol>
+<hr>
+<p>####H4####</p>
+<p>#####H5#####</p>
+<h1 id="三-引用"><a href="#三-引用" class="headerlink" title="三.引用"></a>三.引用</h1><h2 id="1-引用内容"><a href="#1-引用内容" class="headerlink" title="1.引用内容"></a>1.引用内容</h2><p>在段落或其他内容前使用 &gt; 号，就可以将这段内容标记为 ‘引用’ 的内容（<blockquote>）：</blockquote></p>
+<blockquote>
+<p>引用</p>
+<blockquote>
+<p>嵌套引用1<br>嵌套引用2</p>
+</blockquote>
+</blockquote>
+<h1 id="四-列表"><a href="#四-列表" class="headerlink" title="四.列表"></a>四.列表</h1><h2 id="1-无序列表"><a href="#1-无序列表" class="headerlink" title="1.无序列表"></a>1.无序列表</h2><p><em>列表1
+</em>可以使用<em>作为标记
+</em>也可以使用+<br>*或者 -</p>
+<h2 id="2-有序列表"><a href="#2-有序列表" class="headerlink" title="2.有序列表"></a>2.有序列表</h2><p>+2-1有序列表以数字和.开始<br>+2-2.</p>
+<h1 id="五-代码"><a href="#五-代码" class="headerlink" title="五.代码"></a>五.代码</h1><p>1.代码块<br>可以用缩进来插入代码块<br></p>
+<pre><code>&lt;html&gt; // Tab开头
 &lt;title&gt;Markdown&lt;/title&gt;
 &lt;/html&gt; // 四个空格开头
+</code></pre><p>2.行内代码<br>也可以通过 <code></code>，插入行内代码（<code>是 Tab 键上边、数字 1 键左侧的那个按键）：</code></p>
+<p><html> // Tab开头 </html></p>
+<p><title>Markdown</title><br> // 四个空格开头<br>`</p>
 
-2.行内代码
-也可以通过 ``，插入行内代码（` 是 Tab 键上边、数字 1 键左侧的那个按键）：
-`
-&lt;html&gt; // Tab开头
-&lt;title&gt;Markdown&lt;/title&gt;
-&lt;/html&gt; // 四个空格开头
-`
-</code></pre>
       
 
       
