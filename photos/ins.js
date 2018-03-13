@@ -116,7 +116,7 @@
                     var data = res.list[j].arr;
                     var liTmpl = "";
                     for (var i = 0, len = data.link.length; i < len; i++) {
-                        var minSrc = data.link[i] +'?imageView2/4/w/1024/h/1024/interlace/1/q/100';
+                        var minSrc = data.link[i] +'?imageView2/5/w/160/h/160/q/98';
                         var src = data.link[i]+'?imageView2/4/w/1024/h/1024/interlace/1/q/100';
                         var type = data.type[i];
                         var target = src + (type === 'video' ? '.mp4' : '.jpg');
